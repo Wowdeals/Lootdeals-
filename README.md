@@ -35,7 +35,8 @@ const deals = [
     },
     // Add more deals here
 ];
-
+title: 33% off vegetable chopper
+link: https://amzn.to/3MAlEZw
 // Route to fetch deals
 app.get('/api/deals', (req, res) => {
     res.json(deals);
