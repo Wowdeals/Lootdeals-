@@ -34,9 +34,10 @@ const deals = [
         link: "https://example.com/electronics-deals"
     },
     // Add more deals here
-];
+]; deal #1
 title: 33% off vegetable chopper
 link: https://amzn.to/3MAlEZw
+
 // Route to fetch deals
 app.get('/api/deals', (req, res) => {
     res.json(deals);
